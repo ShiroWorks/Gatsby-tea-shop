@@ -1,0 +1,98 @@
+body {
+  background: #fcf7ff !important;
+  color: #233d4d !important;
+  font-family: Verdana, Geneva, Tahoma, sans-serif !important;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Courier New', Courier, monospace !important;
+  letter-spacing: 4px !important;
+  letter-spacing: 0.25rem !important;
+}
+.text-yellow {
+  color: #92afd7 !important;
+}
+.title {
+  letter-spacing: 4.8px;
+  letter-spacing: 0.3rem;
+  font-weight: 400;
+}
+.cart-icon {
+  cursor: pointer;
+  color: #92afd7;
+  font-size: 32px;
+  font-size: 2rem;
+}
+.btn-yellow {
+  color: #92afd7 !important;
+  border-color: #92afd7 !important;
+}
+.btn-yellow:hover {
+  background: #92afd7 !important;
+  color: #233d4d !important;
+}
+.default-background {
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(rgba(124, 165, 199, 0.233)),
+    to(rgba(9, 75, 255, 0.233))
+  );
+  background: linear-gradient(
+    rgba(124, 165, 199, 0.233),
+    rgba(9, 75, 255, 0.233)
+  );
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.about-background {
+  min-height: 60vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(rgba(218, 169, 37, 0.767)),
+    to(rgba(9, 75, 255, 0.616))
+  );
+  background: linear-gradient(
+    rgba(218, 169, 37, 0.767),
+    rgba(9, 75, 255, 0.616)
+  );
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.menu {
+  background: #594157;
+}
+.contact {
+  background: #594157;
+}
+.footer {
+  background: #233d4d;
+}
