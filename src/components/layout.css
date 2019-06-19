@@ -93,6 +93,9 @@ h6 {
 .contact {
   background: #594157;
 }
+.card-img-top {
+  height: 10rem !important;
+}
 .footer {
   background: #233d4d;
 }
